@@ -109,7 +109,7 @@
                 ]
             },
             "set_gps_location": {
-                "id": 1501,
+                "id": 1502,
                 "description": "Return the last known GPS location",
                 "payload": [
                     {
@@ -429,7 +429,7 @@
                 ]
             },
             "profile": {
-                "id": 1300,
+                "id": 1500,
                 "description": "A profile produced from a single acoustic measurement. The data returned is an array of response strength at even intervals across the scan region. The scan region is defined as the region between <scan_start> and <scan_start + scan_length> millimeters away from the transducer. A distance measurement to the target is also provided.",
                 "payload": [
                     {
@@ -538,7 +538,7 @@
                 ]
             },
             "oss_profile_configuration": {
-                "id": 1301,
+                "id": 1503,
                 "description": "Get the profile output configuration. (Open source firmware only)",
                 "payload": [
                     {
