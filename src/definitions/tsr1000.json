@@ -104,7 +104,7 @@
                 "payload": [
                     {
                         "name": "tx_power_level",
-                        "type": "u6",
+                        "type": "u8",
                         "description": "Transmit power level, 0 .. 4095"
                     }
                 ]
@@ -527,7 +527,7 @@
                 "payload": [
                     {
                         "name": "tx_power_level",
-                        "type": "u6",
+                        "type": "u8",
                         "description": "Transmit power level, 0 .. 4095"
                     }
                 ]
