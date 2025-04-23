@@ -92,7 +92,7 @@
                 "description": "Set the transmit cycles.",
                 "payload": [
                     {
-                        "name": "tx_pulse_length":,
+                        "name": "tx_pulse_length",
                         "type": "u8",
                         "description": "Number of transmit cycles.  Default value is 20."
                     }
@@ -103,7 +103,7 @@
                 "description": "Set the transmit power level.",
                 "payload": [
                     {
-                        "name": "tx_power_level":,
+                        "name": "tx_power_level",
                         "type": "u6",
                         "description": "Transmit power level, 0 .. 4095"
                     }
@@ -114,7 +114,7 @@
                 "description": "Normalize magnitudes to the full range 0..65535.",
                 "payload": [
                     {
-                        "name": "normalization":,
+                        "name": "normalization",
                         "type": "u8",
                         "description": "0 - off, 1 - normalize magnitude, 2 - sphearical spreading correction."
                     }
@@ -515,7 +515,7 @@
                 "description": "Set the transmit cycles.",
                 "payload": [
                     {
-                        "name": "tx_pulse_length":,
+                        "name": "tx_pulse_length",
                         "type": "u8",
                         "description": "Number of transmit cycles.  Default value is 20."
                     }
@@ -526,7 +526,7 @@
                 "description": "Set the transmit power level.",
                 "payload": [
                     {
-                        "name": "tx_power_level":,
+                        "name": "tx_power_level",
                         "type": "u6",
                         "description": "Transmit power level, 0 .. 4095"
                     }
@@ -537,12 +537,12 @@
                 "description": "Normalize magnitudes to the full range 0..65535.",
                 "payload": [
                     {
-                        "name": "normalization":,
+                        "name": "normalization",
                         "type": "u8",
                         "description": "0 - off, 1 - normalize magnitude, 2 - sphearical spreading correction."
                     }
                 ]
-            },
+            }
         },
         "control": {
             "goto_bootloader": {
