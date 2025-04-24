@@ -87,42 +87,9 @@
                     }
                 ]
             },
-            "set_tx_pusle_length": {
-                "id": 1507,
-                "description": "Set the transmit cycles.",
-                "payload": [
-                    {
-                        "name": "tx_pulse_length",
-                        "type": "u8",
-                        "description": "Number of transmit cycles.  Default value is 20."
-                    }
-                ]
-            },
-            "set_tx_power_level": {
-                "id": 1509,
-                "description": "Set the transmit power level.",
-                "payload": [
-                    {
-                        "name": "tx_power_level",
-                        "type": "u8",
-                        "description": "Transmit power level, 0 .. 4095"
-                    }
-                ]
-            },
-            "set_normalization": {
-                "id": 1511,
-                "description": "Normalize magnitudes to the full range 0..65535.",
-                "payload": [
-                    {
-                        "name": "normalization",
-                        "type": "u8",
-                        "description": "0 - off, 1 - normalize magnitude, 2 - sphearical spreading correction."
-                    }
-                ]
-            },
             "set_gps_location": {
                 "id": 1503,
-                "description": "Return the last known GPS location",
+                "description": "Set the current GPS location",
                 "payload": [
                     {
                         "name": "utc_time",
@@ -170,6 +137,39 @@
                         "name": "satellites",
                         "type": "u8",
                         "description": "0..24"
+                    }
+                ]
+            },
+            "set_tx_pusle_length": {
+                "id": 1507,
+                "description": "Set the transmit cycles.",
+                "payload": [
+                    {
+                        "name": "tx_pulse_length",
+                        "type": "u8",
+                        "description": "Number of transmit cycles.  Default value is 20."
+                    }
+                ]
+            },
+            "set_tx_power_level": {
+                "id": 1509,
+                "description": "Set the transmit power level.",
+                "payload": [
+                    {
+                        "name": "tx_power_level",
+                        "type": "u16",
+                        "description": "Transmit power level, 0 .. 4095"
+                    }
+                ]
+            },
+            "set_normalization": {
+                "id": 1511,
+                "description": "Normalize magnitudes to the full range 0..65535.",
+                "payload": [
+                    {
+                        "name": "normalization",
+                        "type": "u8",
+                        "description": "0 - off, 1 - normalize magnitude, 2 - sphearical spreading correction."
                     }
                 ]
             }
@@ -549,8 +549,8 @@
                     }
                 ]
             },
-            "tx_pusle_length": {
-                "id": 1508,
+            "tx_pulse_length": {
+                "id": 1506,
                 "description": "Set the transmit cycles.",
                 "payload": [
                     {
@@ -561,18 +561,18 @@
                 ]
             },
             "tx_power_level": {
-                "id": 1510,
+                "id": 1508,
                 "description": "Set the transmit power level.",
                 "payload": [
                     {
                         "name": "tx_power_level",
-                        "type": "u8",
+                        "type": "u16",
                         "description": "Transmit power level, 0 .. 4095"
                     }
                 ]
             },
             "normalization": {
-                "id": 1512,
+                "id": 1510,
                 "description": "Normalize magnitudes to the full range 0..65535.",
                 "payload": [
                     {
